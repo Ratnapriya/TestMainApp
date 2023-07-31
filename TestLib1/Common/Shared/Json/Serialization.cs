@@ -11,6 +11,7 @@ namespace Abbott.Services.Platform.Common.Json
     {
         public static JsonSerializerSettings TolerantJsonSerializerSettings = new JsonSerializerSettings()
         {
+            //Adding Comment for test
             NullValueHandling = NullValueHandling.Ignore,
             MissingMemberHandling = MissingMemberHandling.Ignore,
             Error = (object sender, Newtonsoft.Json.Serialization.ErrorEventArgs errorEventArgs) =>
